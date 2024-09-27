@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="pantalla">
+      <h1 style="text-align: center">
+        <span style="font-size: 100px; color: bisque">THE</span> WEATHER IN ...
+      </h1>
+
+      <div id="elegirCiudad">
+        <select name="" id="selector">
+          <option value="nada">----------</option>
+          <option value="zocca">ZOCCA , italia</option>
+          <option value="agadez">AGADEZ , níger</option>
+          <option value="a">ADIVINA POR LOS DATOS</option>
+        </select>
+        <button onclick="verTodo()">VER</button>
+      </div>
+
+      <div id="info">
+        <div class="dato" id="temperatura"></div>
+        <div class="dato" id="presion"></div>
+        <div class="dato" id="wind"></div>
+
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>

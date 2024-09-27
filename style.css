@@ -1,0 +1,33 @@
+#pantalla {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+#info{
+
+margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.6811099439775911) 100%);
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dato{
+    font-size: 20px;
+    color: bisque;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

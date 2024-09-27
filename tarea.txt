@@ -1,0 +1,10 @@
+EXERCISI CONNEXIÓ API DEL TEMPS
+T’has de donar d’alta a la web https://openweathermap.org (opció gratis)
+I t’enviaran un email de confirmació i una API KEY, que has d’afegir als teus params de l’endpoint.
+Info de la API : https://openweathermap.org/current
+Fes una connexió amb la api openweathermap i mostra al menys tres resultats a pantalla (exemple: ciutat, temperatura i descripció)
+Atenció, la temperatura en ºC, i el llenguatge en ES, CA, etc
+
++EXTRA: afegir-lo en algun punt d’una altra web que ja tinguis feta
++ EXTRA: posar-lo com info al vostre portafoli
++EXTRA: posar tres ciutats: Barcelona, Paris, London
